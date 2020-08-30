@@ -195,14 +195,14 @@ a {
 .section {
   padding-top: 94px;
 
-  background: #e5e5e5;
+  color: var(--background-portfolio);
 }
 
 .section-jobs {
   padding-top: 94px;
   padding-bottom: 94px;
 
-  background: #e5e5e5;
+  color: var(--background-portfolio);
 }
 
 .section-command {

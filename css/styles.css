@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --background-color: #f5f4fa;
+  --background-portfolio: #e5e5e5;
 }
 
 body {
@@ -222,7 +223,7 @@ a {
 
 .text-work {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -284,6 +285,10 @@ footer {
 
 /* портофолио*/
 
+.main {
+  color: var(--background-portfolio);
+}
+
 .button-link {
   font-family: Roboto;
   font-weight: 500;
@@ -314,18 +319,20 @@ h2 {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  text-align: center;
-  margin-top: 0;
+
+  margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
+  color: var(--primary-text-color);
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 24px;
 }
 
 .item {
